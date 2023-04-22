@@ -44,7 +44,7 @@ function App() {
         </ul>
       </div>
       {/* about */}
-      <div className=" h-[80vh]">
+      <div className=" h-[70vh]">
         {/* TODO Animation */}
         <h1 className="text-center my-28 text-5xl mx-auto">About Me</h1>
         <div className="grid grid-flow-row-dense grid-cols-6 mx-48">
@@ -89,90 +89,191 @@ function App() {
               repellat velit eaque aspernatur expedita. Possimus itaque
               adipisci.
             </p>
-            <p>
-              <ul class="fh5co-social-icons">
-                {/* TODO */}
-                <li>
-                  <a href="#">
-                    <i class="icon-twitter2"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="icon-facebook3"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="icon-linkedin2"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="icon-dribbble2"></i>
-                  </a>
-                </li>
-              </ul>
-            </p>
+            <ul className="fh5co-social-icons">
+              {/* TODO */}
+              <li>
+                <a href="#">
+                  <i className="icon-twitter2"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="icon-facebook3"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="icon-linkedin2"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="icon-dribbble2"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
       {/* resume */}
-      <div className="h-[100vh]">
+      <div className="h-[120vh]">
         {/* TODO  animation */}
         <h1 className="text-center my-28 text-5xl mx-auto">My Resume</h1>
-        <div className="flex justify-center">
-          <ol class="relative border-l border-gray-200 dark:border-gray-700">
-            <li class="mb-16 ml-8">
-              <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors">
-              </span>
-              <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 ">
+        <div className="grid grid-flow-row-dense grid-cols-3 ml-40">
+          <ol className="relative border-l border-gray-200 dark:border-gray-700 flex flex-col justify-center w-[150%] mx-auto">
+            <li className="mb-16 ml-8 ">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
+              <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 ">
                 Faculty of Science
               </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                2018 - 2021
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                2018
               </time>
-              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                Mathematics Department, Computer Science & Information Technology track.
+              <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                Mathematics Department, Computer Science & Information
+                Technology track.
               </p>
             </li>
-            <li class="mb-16 ml-8">
-              <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors">
-              </span>
-              <h3 class="mb-1 text-lg font-semibold text-gray-900 ">
+            <li className="mb-16 ml-8">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
+              <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
+                Major Science Team
+              </h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                2019
+              </time>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                Design Committee Member at MST.
+              </p>
+            </li>
+            <li className="mb-16 ml-8">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
+              <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
+                Google Developer Student Club PSU
+              </h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                2020
+              </time>
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                Design Committee Member at GDSC.
+              </p>
+            </li>
+            <li className="mb-16 ml-8">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
+              <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
                 Graduation Project
               </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 2021
               </time>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-              Web application that was focused on helping clients to understand lab tests more and recording for them these test to have a medical history, and some common Q&A.
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                Web application that was focused on helping clients to
+                understand lab tests more and recording for them these test to
+                have a medical history, and some common Q&A.
               </p>
             </li>
-            <li class="ml-8 mb-5">
-              <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors">
-              </span>
-              <h3 class="mb-1 text-lg font-semibold text-gray-900 ">
+            <li className="ml-8 mb-5">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
+              <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
                 Information Technology Institute
               </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 2022
               </time>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                Web & User Developer.
+              <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                Web & User Development.
               </p>
             </li>
-            <li class="ml-8 mt-20">
-              <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 -bottom-5 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors">
-              </span>
-              <h3 class="mb-1 text-lg font-semibold text-gray-900 absolute -bottom-8">
+            <li className="ml-8 mt-20">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 -bottom-5 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
+              <h3 className="mb-1 text-lg font-semibold text-gray-900 absolute -bottom-8">
                 Present
               </h3>
             </li>
           </ol>
         </div>
       </div>
-    </div>
+      {/* my services */}
+      <div className="h-[80vh]">
+        <div className="">
+          <h1 className="text-center my-28 text-5xl mx-auto">My Services</h1>
+        </div>
+        <div className=" w-[95vw]">
+            <div className="grid grid-flow-row-dense grid-cols-3">
+              <div className="col-span-1 w-1/3">
+                  <span className="icon">
+                    <i className="icon-paintbrush"></i>
+                  </span>
+                    <h3 className="font-bold">Web Design</h3>
+                    <p>
+                      Facilis ipsum reprehenderit nemo molestias. Aut cum
+                      mollitia reprehenderit.
+                    </p>
+              </div>
+              <div className="col-span-2 w-1/3">
+                  <span className="icon">
+                    <i className="icon-briefcase"></i>
+                  </span>
+                    <h3 className="font-bold">Branding</h3>
+                    <p>
+                      Facilis ipsum reprehenderit nemo molestias. Aut cum
+                      mollitia reprehenderit.
+                    </p>
+              </div>
+              <div className="col-span-3 w-1/3">
+                  <span className="icon">
+                    <i className="icon-search"></i>
+                  </span>
+                    <h3 className="font-bold">Analytics ya 3m</h3>
+                    <p>
+                      Facilis ipsum reprehenderit nemo molestias. Aut cum
+                      mollitia reprehenderit.
+                    </p>
+              </div>
+            </div>
+
+            <div className="grid grid-flow-row-dense grid-cols-3">
+              <div className=" col-span-1 ">
+                  <span className="icon">
+                    <i className="icon-bargraph"></i>
+                  </span>
+                  <div className="">
+                    <h3 className="font-bold">Web Developent</h3>
+                    <p>
+                      Facilis ipsum reprehenderit nemo molestias. Aut cum
+                      mollitia reprehenderit.
+                    </p>
+                </div>
+              </div>
+
+              <div className=" col-span-2 w-[30%]">
+                  <span className="icon">
+                    <i className="icon-genius"></i>
+                  </span>
+                  <div className="">
+                    <h3 className="font-bold">Web Marketing</h3>
+                    <p>
+                      Facilis ipsum reprehenderit nemo molestias. Aut cum
+                      mollitia reprehenderit.
+                    </p>
+                </div>
+              </div>
+              <div className="col-span-3 w-[30%]">
+                  <span className="icon">
+                    <i className="icon-chat"></i>
+                  </span>
+                  <div className="">
+                    <h3 className="font-bold">Support</h3>
+                    <p>
+                      Facilis ipsum reprehenderit nemo molestias. Aut cum
+                      mollitia reprehenderit.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   );
 }
 
