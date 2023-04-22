@@ -199,8 +199,8 @@ function App() {
           <h1 className="text-center my-28 text-5xl mx-auto">My Services</h1>
         </div>
         <div className=" w-[95vw]">
-            <div className="grid grid-flow-row-dense grid-cols-3">
-              <div className="col-span-1 w-1/3">
+            <div className="flex flex-row content-between mx-10">
+              <div className="w-[30%]">
                   <span className="icon">
                     <i className="icon-paintbrush"></i>
                   </span>
@@ -210,7 +210,7 @@ function App() {
                       mollitia reprehenderit.
                     </p>
               </div>
-              <div className="col-span-2 w-1/3">
+              <div className="w-[30%]">
                   <span className="icon">
                     <i className="icon-briefcase"></i>
                   </span>
@@ -220,7 +220,7 @@ function App() {
                       mollitia reprehenderit.
                     </p>
               </div>
-              <div className="col-span-3 w-1/3">
+              <div className="w-[30%]">
                   <span className="icon">
                     <i className="icon-search"></i>
                   </span>
@@ -232,8 +232,8 @@ function App() {
               </div>
             </div>
 
-            <div className="grid grid-flow-row-dense grid-cols-3">
-              <div className=" col-span-1 ">
+            <div className="flex flex-row content-between mx-10">
+              <div className=" w-[30%] ">
                   <span className="icon">
                     <i className="icon-bargraph"></i>
                   </span>
@@ -246,7 +246,7 @@ function App() {
                 </div>
               </div>
 
-              <div className=" col-span-2 w-[30%]">
+              <div className=" w-[30%]">
                   <span className="icon">
                     <i className="icon-genius"></i>
                   </span>
@@ -258,7 +258,7 @@ function App() {
                     </p>
                 </div>
               </div>
-              <div className="col-span-3 w-[30%]">
+              <div className=" w-[30%]">
                   <span className="icon">
                     <i className="icon-chat"></i>
                   </span>
