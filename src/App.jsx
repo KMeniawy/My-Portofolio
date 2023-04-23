@@ -274,8 +274,8 @@ function App() {
           </div>
         </div>
         {/* skills */}
-        <div className="h-[120vh]">
-        <div className="pt-10 pb-5">
+        <div className="h-[100vh] mb-10">
+        <div className="pt-5 pb-2">
             <h1 className="text-center my-20 text-5xl mx-auto">Skills</h1>
           </div>
           <div className="flex flex-row justify-center mb-20 mx-10 text-center">
