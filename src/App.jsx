@@ -116,7 +116,7 @@ function App() {
         </div>
       </div>
       {/* resume */}
-      <div className="h-[100vh]">
+      <div className="h-[100vh] mb-36">
         {/* TODO  animation */}
         <h1 className="text-center my-28 text-5xl mx-auto">My Resume</h1>
         <div className="grid grid-flow-row-dense grid-cols-3 ml-40">
@@ -194,9 +194,9 @@ function App() {
         </div>
       </div>
       {/* my services */}
-      <div className="h-[90vh]">
-        <div className="py-16">
-          <h1 className="text-center my-28 text-5xl mx-auto">My Services</h1>
+      <div className="h-[90vh] bg-[#0000A6] text-white pt-24">
+        <div className="pb-16">
+          <h1 className="text-center mb-28 text-5xl mx-auto">My Services</h1>
         </div>
         <div className=" w-[100%]">
             <div className="flex flex-row justify-center mb-32 mx-10 text-center">
@@ -272,6 +272,12 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+        {/* skills */}
+        <div>
+        <div className="py-16">
+          <h1 className="text-center my-28 text-5xl mx-auto">Skills</h1>
+        </div>
         </div>
       </div>
   );
