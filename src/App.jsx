@@ -116,7 +116,7 @@ function App() {
         </div>
       </div>
       {/* resume */}
-      <div className="h-[120vh]">
+      <div className="h-[100vh]">
         {/* TODO  animation */}
         <h1 className="text-center my-28 text-5xl mx-auto">My Resume</h1>
         <div className="grid grid-flow-row-dense grid-cols-3 ml-40">
@@ -194,33 +194,33 @@ function App() {
         </div>
       </div>
       {/* my services */}
-      <div className="h-[80vh]">
-        <div className="">
+      <div className="h-[90vh]">
+        <div className="pt-3">
           <h1 className="text-center my-28 text-5xl mx-auto">My Services</h1>
         </div>
-        <div className=" w-[95vw]">
-            <div className="flex flex-row content-between mx-10">
-              <div className="w-[30%]">
+        <div className=" w-[100%]">
+            <div className="flex flex-row justify-center mb-20 mx-10 text-center">
+              <div className="w-[25%] mr-5">
                   <span className="icon">
                     <i className="icon-paintbrush"></i>
                   </span>
                     <h3 className="font-bold">Web Design</h3>
                     <p>
-                      Facilis ipsum reprehenderit nemo molestias. Aut cum
+                    Facilis ipsum reprehenderit nemo molestias. Aut cum
                       mollitia reprehenderit.
                     </p>
               </div>
-              <div className="w-[30%]">
+              <div className="w-[25%] mr-5">
                   <span className="icon">
                     <i className="icon-briefcase"></i>
                   </span>
                     <h3 className="font-bold">Branding</h3>
                     <p>
-                      Facilis ipsum reprehenderit nemo molestias. Aut cum
+                    Facilis ipsum reprehenderit nemo molestias. Aut cum
                       mollitia reprehenderit.
                     </p>
               </div>
-              <div className="w-[30%]">
+              <div className="w-[25%]">
                   <span className="icon">
                     <i className="icon-search"></i>
                   </span>
@@ -232,8 +232,8 @@ function App() {
               </div>
             </div>
 
-            <div className="flex flex-row content-between mx-10">
-              <div className=" w-[30%] ">
+            <div className="flex flex-row justify-center mb-20 mx-10 text-center">
+              <div className=" w-[25%] mr-5">
                   <span className="icon">
                     <i className="icon-bargraph"></i>
                   </span>
@@ -246,7 +246,7 @@ function App() {
                 </div>
               </div>
 
-              <div className=" w-[30%]">
+              <div className=" w-[25%] mr-5">
                   <span className="icon">
                     <i className="icon-genius"></i>
                   </span>
@@ -258,7 +258,7 @@ function App() {
                     </p>
                 </div>
               </div>
-              <div className=" w-[30%]">
+              <div className=" w-[25%]">
                   <span className="icon">
                     <i className="icon-chat"></i>
                   </span>
