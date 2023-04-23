@@ -195,11 +195,11 @@ function App() {
       </div>
       {/* my services */}
       <div className="h-[90vh]">
-        <div className="pt-3">
+        <div className="py-16">
           <h1 className="text-center my-28 text-5xl mx-auto">My Services</h1>
         </div>
         <div className=" w-[100%]">
-            <div className="flex flex-row justify-center mb-20 mx-10 text-center">
+            <div className="flex flex-row justify-center mb-32 mx-10 text-center">
               <div className="w-[25%] mr-5">
                   <span className="icon">
                     <i className="icon-paintbrush"></i>
@@ -224,7 +224,7 @@ function App() {
                   <span className="icon">
                     <i className="icon-search"></i>
                   </span>
-                    <h3 className="font-bold">Analytics ya 3m</h3>
+                    <h3 className="font-bold">Analytics</h3>
                     <p>
                       Facilis ipsum reprehenderit nemo molestias. Aut cum
                       mollitia reprehenderit.
