@@ -444,16 +444,12 @@ function App() {
         </p>
         <button className="btn bg-white text-[#0000A6] hover:text-white mb-20">Contact Us</button>
       </div>
-      <div className="h-[55vh] grid grid-cols-2">
-        <div className="col-span-1 h-[100%]">
-          <img
-            src="./src/assets/contact.jpg"
-            className="h-4/6 w-[100%]"
-          />
+      <div className=" grid grid-cols-2 h-[85vh]">
+        <div className="col-span-1  h-[100%] bg-contact bg-cover bg-no-repeat">
         </div>
-        <div className="choose animate-box">
-          <h2 className="pt-10 text-3xl pl-10 mb-10 col-span-2">Contact</h2>
-          <form action="#" className="pl-16 flex flex-col gap-8">
+        <div className="">
+          <h2 className="pt-10 text-3xl pl-10 mb-10 ">Contact</h2>
+          <form action="#" className="pl-16 flex flex-col gap-8 col-span-2">
             <div className="row form-group">
               <div className="col-md-6">
                 <input
@@ -510,7 +506,7 @@ function App() {
           </form>
         </div>
       </div>
-      <div className="h-[28vh] bg-[#0000A6] text-white mt-80 flex justify-center items-center">
+      <div className="h-[28vh] bg-[#0000A6] text-white mt-0 flex justify-center items-center">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
