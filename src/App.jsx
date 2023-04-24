@@ -44,7 +44,7 @@ function App() {
         </ul>
       </div>
       {/* about */}
-      <div className=" h-[70vh]">
+      <div className=" h-[60vh]">
         {/* TODO Animation */}
         <h1 className="text-center my-28 text-5xl mx-auto">About Me</h1>
         <div className="grid grid-flow-row-dense grid-cols-6 mx-48">
@@ -168,8 +168,7 @@ function App() {
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                 Web application that was focused on helping clients to
-                understand lab tests more and recording for them these test to
-                have a medical history, and some common Q&A.
+                understand lab tests more and to save it for them in their medical record, and some common Q&A.
               </p>
             </li>
             <li className="ml-8 mb-5">
@@ -181,7 +180,7 @@ function App() {
                 2022
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                Web & User Development.
+                Web & User Interface Development.
               </p>
             </li>
             <li className="ml-8 mt-20">
@@ -285,12 +284,12 @@ function App() {
               </div>
             </div>
             <div className="w-[20%]">
-              <div className="radial-progress text-[#0D1117]" style={{"--value":70, "--size":"10rem", "--thickness": "0.5rem"}}>
+              <div className="radial-progress text-[#1e2126]" style={{"--value":70, "--size":"10rem", "--thickness": "0.5rem"}}>
                 <h3 className="font-bold text-black">Express</h3>
               </div>
             </div>
             <div className="w-[20%]">
-              <div className="radial-progress text-[#61DAFB]" style={{"--value":75, "--size":"10rem", "--thickness": "0.5rem"}}>
+              <div className="radial-progress text-[#81c0d1]" style={{"--value":75, "--size":"10rem", "--thickness": "0.5rem"}}>
                 <h3 className="font-bold text-black">React</h3>
               </div>
             </div>
@@ -307,12 +306,12 @@ function App() {
               </div>
             </div>
             <div className="w-[20%]">
-              <div className="radial-progress text-[#FF7C00]" style={{"--value":90, "--size":"10rem", "--thickness": "0.5rem"}}>
+              <div className="radial-progress text-[#fa8e2a]" style={{"--value":90, "--size":"10rem", "--thickness": "0.5rem"}}>
                 <h3 className="font-bold text-black">Adobe Illustrator</h3>
               </div>
             </div>
             <div className="w-[20%]">
-              <div className="radial-progress text-[#FF2BC2]" style={{"--value":70, "--size":"10rem", "--thickness": "0.5rem"}}>
+              <div className="radial-progress text-[#bb4b9b]" style={{"--value":70, "--size":"10rem", "--thickness": "0.5rem"}}>
                 <h3 className="font-bold text-black">Adobe XD</h3>
               </div>
             </div>
