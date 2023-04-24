@@ -444,7 +444,7 @@ function App() {
         </p>
         <button className="btn bg-white text-[#0000A6] hover:text-white mb-20">Contact Us</button>
       </div>
-      <div className="h-[90vh] grid grid-cols-2 mb-20">
+      <div className="h-[60vh] grid grid-cols-2">
         <div className="">
           <img
             src="./src/assets/contact.jpg"
