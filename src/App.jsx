@@ -168,7 +168,8 @@ function App() {
               </time>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                 Web application that was focused on helping clients to
-                understand lab tests more and to save it for them in their medical record, and some common Q&A.
+                understand lab tests more and to save it for them in their
+                medical record, and some common Q&A.
               </p>
             </li>
             <li className="ml-8 mb-5">
@@ -198,161 +199,310 @@ function App() {
           <h1 className="text-center mb-28 text-5xl mx-auto">My Services</h1>
         </div>
         <div className=" w-[100%]">
-            <div className="flex flex-row justify-center mb-32 mx-10 text-center">
-              <div className="w-[25%] mr-5">
-                  <span className="icon">
-                    <i className="icon-paintbrush"></i>
-                  </span>
-                    <h3 className="font-bold">Web Design</h3>
-                    <p>
-                    Facilis ipsum reprehenderit nemo molestias. Aut cum
-                      mollitia reprehenderit.
-                    </p>
-              </div>
-              <div className="w-[25%] mr-5">
-                  <span className="icon">
-                    <i className="icon-briefcase"></i>
-                  </span>
-                    <h3 className="font-bold">Branding</h3>
-                    <p>
-                    Facilis ipsum reprehenderit nemo molestias. Aut cum
-                      mollitia reprehenderit.
-                    </p>
-              </div>
-              <div className="w-[25%]">
-                  <span className="icon">
-                    <i className="icon-search"></i>
-                  </span>
-                    <h3 className="font-bold">Analytics</h3>
-                    <p>
-                      Facilis ipsum reprehenderit nemo molestias. Aut cum
-                      mollitia reprehenderit.
-                    </p>
+          <div className="flex flex-row justify-center mb-32 mx-10 text-center">
+            <div className="w-[25%] mr-5">
+              <span className="icon">
+                <i className="icon-paintbrush"></i>
+              </span>
+              <h3 className="font-bold">Web Design</h3>
+              <p>
+                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                reprehenderit.
+              </p>
+            </div>
+            <div className="w-[25%] mr-5">
+              <span className="icon">
+                <i className="icon-briefcase"></i>
+              </span>
+              <h3 className="font-bold">Branding</h3>
+              <p>
+                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                reprehenderit.
+              </p>
+            </div>
+            <div className="w-[25%]">
+              <span className="icon">
+                <i className="icon-search"></i>
+              </span>
+              <h3 className="font-bold">Analytics</h3>
+              <p>
+                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                reprehenderit.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-row justify-center mb-20 mx-10 text-center">
+            <div className=" w-[25%] mr-5">
+              <span className="icon">
+                <i className="icon-bargraph"></i>
+              </span>
+              <div className="">
+                <h3 className="font-bold">Web Developent</h3>
+                <p>
+                  Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                  reprehenderit.
+                </p>
               </div>
             </div>
 
-            <div className="flex flex-row justify-center mb-20 mx-10 text-center">
-              <div className=" w-[25%] mr-5">
-                  <span className="icon">
-                    <i className="icon-bargraph"></i>
-                  </span>
-                  <div className="">
-                    <h3 className="font-bold">Web Developent</h3>
-                    <p>
-                      Facilis ipsum reprehenderit nemo molestias. Aut cum
-                      mollitia reprehenderit.
-                    </p>
-                </div>
-              </div>
-
-              <div className=" w-[25%] mr-5">
-                  <span className="icon">
-                    <i className="icon-genius"></i>
-                  </span>
-                  <div className="">
-                    <h3 className="font-bold">Web Marketing</h3>
-                    <p>
-                      Facilis ipsum reprehenderit nemo molestias. Aut cum
-                      mollitia reprehenderit.
-                    </p>
-                </div>
-              </div>
-              <div className=" w-[25%]">
-                  <span className="icon">
-                    <i className="icon-chat"></i>
-                  </span>
-                  <div className="">
-                    <h3 className="font-bold">Support</h3>
-                    <p>
-                      Facilis ipsum reprehenderit nemo molestias. Aut cum
-                      mollitia reprehenderit.
-                    </p>
-                </div>
+            <div className=" w-[25%] mr-5">
+              <span className="icon">
+                <i className="icon-genius"></i>
+              </span>
+              <div className="">
+                <h3 className="font-bold">Web Marketing</h3>
+                <p>
+                  Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                  reprehenderit.
+                </p>
               </div>
             </div>
-          </div>
-        </div>
-        {/* skills */}
-        <div className="h-[100vh] mb-10">
-        <div className="pt-5 pb-2">
-            <h1 className="text-center my-20 text-5xl mx-auto">Skills</h1>
-          </div>
-          <div className="flex flex-row justify-center mb-20 mx-10 text-center">
-            <div className="w-[20%]">
-              <div className="radial-progress text-[#439934]" style={{"--value":60, "--size":"10rem", "--thickness": "0.5rem"}}>
-                <h3 className="font-bold text-black">MongoDB</h3>
+            <div className=" w-[25%]">
+              <span className="icon">
+                <i className="icon-chat"></i>
+              </span>
+              <div className="">
+                <h3 className="font-bold">Support</h3>
+                <p>
+                  Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                  reprehenderit.
+                </p>
               </div>
-            </div>
-            <div className="w-[20%]">
-              <div className="radial-progress text-[#1e2126]" style={{"--value":70, "--size":"10rem", "--thickness": "0.5rem"}}>
-                <h3 className="font-bold text-black">Express</h3>
-              </div>
-            </div>
-            <div className="w-[20%]">
-              <div className="radial-progress text-[#81c0d1]" style={{"--value":75, "--size":"10rem", "--thickness": "0.5rem"}}>
-                <h3 className="font-bold text-black">React</h3>
-              </div>
-            </div>
-            <div className="w-[20%]">
-              <div className="radial-progress text-[#75B527]" style={{"--value":65, "--size":"10rem", "--thickness": "0.5rem"}}>
-                <h3 className="font-bold text-black">NodeJS</h3>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-row justify-center mb-20 mx-10 text-center">
-            <div className="w-[20%]">
-              <div className="radial-progress text-[#80B5E2]" style={{"--value":75, "--size":"10rem", "--thickness": "0.5rem"}}>
-                <h3 className="font-bold text-black">Adobe Photoshop</h3>
-              </div>
-            </div>
-            <div className="w-[20%]">
-              <div className="radial-progress text-[#fa8e2a]" style={{"--value":90, "--size":"10rem", "--thickness": "0.5rem"}}>
-                <h3 className="font-bold text-black">Adobe Illustrator</h3>
-              </div>
-            </div>
-            <div className="w-[20%]">
-              <div className="radial-progress text-[#bb4b9b]" style={{"--value":70, "--size":"10rem", "--thickness": "0.5rem"}}>
-                <h3 className="font-bold text-black">Adobe XD</h3>
-              </div>
-            </div>
-            <div className="w-[20%]">
-              <div className="radial-progress text-[#0ACF83]" style={{"--value":65, "--size":"10rem", "--thickness": "0.5rem"}}>
-                <h3 className="font-bold text-black">Figma</h3>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-row justify-center mb-10 mx-10 text-center">
-            <div>
-              <div className=" text- font-medium text-left">HTML5</div>
-              <progress data-theme="mytheme" className="progress progress-success w-[30vw]" value="90" max="100"></progress>
-            </div>
-            <div className="ml-24">
-              <div className=" text-base font-medium text-left">CSS3</div>
-              <progress data-theme="mytheme" className="progress progress-accent w-[30vw]" value="70" max="100"></progress>
-            </div>
-          </div>
-          <div className="flex flex-row justify-center mb-10 mx-10 text-center">
-            <div>
-              <div className=" text-base font-medium text-left">JavaScript</div>
-              <progress className="progress progress-warning w-[30vw]" value="80" max="100"></progress>
-            </div>
-            <div className="ml-24">
-              <div className=" text-base font-medium text-left">Angular</div>
-              <progress className="progress progress-error w-[30vw]" value="65" max="100"></progress>
-            </div>
-          </div>
-          <div className="flex flex-row justify-center mb-10 mx-10 text-center">
-            <div>
-              <div className=" text-base font-medium text-left">TailwindCSS</div>
-              <progress className="progress progress-info w-[30vw]" value="75" max="100"></progress>
-            </div>
-            <div className="ml-24">
-              <div className=" text-base font-medium text-left">Bootstrap</div>
-              <progress className="progress progress-primary w-[30vw]" value="80" max="100"></progress>
             </div>
           </div>
         </div>
       </div>
+      {/* skills */}
+      <div className="h-[100vh] mb-10">
+        <div className="pt-5 pb-2">
+          <h1 className="text-center my-20 text-5xl mx-auto">Skills</h1>
+        </div>
+        <div className="flex flex-row justify-center mb-20 mx-10 text-center">
+          <div className="w-[20%]">
+            <div
+              className="radial-progress text-[#439934]"
+              style={{
+                "--value": 60,
+                "--size": "10rem",
+                "--thickness": "0.5rem",
+              }}
+            >
+              <h3 className="font-bold text-black">MongoDB</h3>
+            </div>
+          </div>
+          <div className="w-[20%]">
+            <div
+              className="radial-progress text-[#1e2126]"
+              style={{
+                "--value": 70,
+                "--size": "10rem",
+                "--thickness": "0.5rem",
+              }}
+            >
+              <h3 className="font-bold text-black">Express</h3>
+            </div>
+          </div>
+          <div className="w-[20%]">
+            <div
+              className="radial-progress text-[#81c0d1]"
+              style={{
+                "--value": 75,
+                "--size": "10rem",
+                "--thickness": "0.5rem",
+              }}
+            >
+              <h3 className="font-bold text-black">React</h3>
+            </div>
+          </div>
+          <div className="w-[20%]">
+            <div
+              className="radial-progress text-[#75B527]"
+              style={{
+                "--value": 65,
+                "--size": "10rem",
+                "--thickness": "0.5rem",
+              }}
+            >
+              <h3 className="font-bold text-black">NodeJS</h3>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-row justify-center mb-20 mx-10 text-center">
+          <div className="w-[20%]">
+            <div
+              className="radial-progress text-[#80B5E2]"
+              style={{
+                "--value": 75,
+                "--size": "10rem",
+                "--thickness": "0.5rem",
+              }}
+            >
+              <h3 className="font-bold text-black">Adobe Photoshop</h3>
+            </div>
+          </div>
+          <div className="w-[20%]">
+            <div
+              className="radial-progress text-[#fa8e2a]"
+              style={{
+                "--value": 90,
+                "--size": "10rem",
+                "--thickness": "0.5rem",
+              }}
+            >
+              <h3 className="font-bold text-black">Adobe Illustrator</h3>
+            </div>
+          </div>
+          <div className="w-[20%]">
+            <div
+              className="radial-progress text-[#bb4b9b]"
+              style={{
+                "--value": 70,
+                "--size": "10rem",
+                "--thickness": "0.5rem",
+              }}
+            >
+              <h3 className="font-bold text-black">Adobe XD</h3>
+            </div>
+          </div>
+          <div className="w-[20%]">
+            <div
+              className="radial-progress text-[#0ACF83]"
+              style={{
+                "--value": 65,
+                "--size": "10rem",
+                "--thickness": "0.5rem",
+              }}
+            >
+              <h3 className="font-bold text-black">Figma</h3>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-row justify-center mb-10 mx-10 text-center">
+          <div>
+            <div className=" text- font-medium text-left">HTML5</div>
+            <progress
+              data-theme="mytheme"
+              className="progress progress-success w-[30vw]"
+              value="90"
+              max="100"
+            ></progress>
+          </div>
+          <div className="ml-24">
+            <div className=" text-base font-medium text-left">CSS3</div>
+            <progress
+              data-theme="mytheme"
+              className="progress progress-accent w-[30vw]"
+              value="70"
+              max="100"
+            ></progress>
+          </div>
+        </div>
+        <div className="flex flex-row justify-center mb-10 mx-10 text-center">
+          <div>
+            <div className=" text-base font-medium text-left">JavaScript</div>
+            <progress
+              className="progress progress-warning w-[30vw]"
+              value="80"
+              max="100"
+            ></progress>
+          </div>
+          <div className="ml-24">
+            <div className=" text-base font-medium text-left">Angular</div>
+            <progress
+              className="progress progress-error w-[30vw]"
+              value="65"
+              max="100"
+            ></progress>
+          </div>
+        </div>
+        <div className="flex flex-row justify-center mb-10 mx-10 text-center">
+          <div>
+            <div className=" text-base font-medium text-left">TailwindCSS</div>
+            <progress
+              className="progress progress-info w-[30vw]"
+              value="75"
+              max="100"
+            ></progress>
+          </div>
+          <div className="ml-24">
+            <div className=" text-base font-medium text-left">Bootstrap</div>
+            <progress
+              className="progress progress-primary w-[30vw]"
+              value="80"
+              max="100"
+            ></progress>
+          </div>
+        </div>
+      </div>
+      {/* contact me */}
+      <div className="h-[90vh] grid grid-cols-2 my-20">
+        <div className="">
+          <img
+            src="./src/assets/contact.jpg"
+            className="h-4/6 w-[100%]"
+          />
+        </div>
+        <div className="choose animate-box">
+          <h2 className="pt-10 text-3xl pl-10 mb-10">Contact</h2>
+          <form action="#" className="pl-16 flex flex-col gap-8">
+            <div className="row form-group">
+              <div className="col-md-6">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  className="input input-lg input-primary w-full max-w-lg"
+                />
+              </div>
+            </div>
+            <div className="row form-group">
+              <div className="col-md-6">
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  className="input input-lg input-primary w-full max-w-lg"
+                />
+              </div>
+            </div>
+
+            <div className="row form-group">
+              <div className="col-md-12">
+                <input
+                  type="email"
+                  placeholder="E-Mail"
+                  className="input input-lg input-primary w-full max-w-lg"
+                />
+              </div>
+            </div>
+
+            <div className="row form-group">
+              <div className="col-md-12">
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  className="input input-lg input-primary w-full max-w-lg"
+                />
+              </div>
+            </div>
+
+            <div className="row form-group">
+              <div className="col-md-12">
+                <textarea
+                  className="textarea textarea-primary textarea-bordered"
+                  placeholder="Subject Message"
+                  rows={5} cols={71}
+                ></textarea>
+              </div>
+            </div>
+            <div className="form-group">
+              <button type="submit" className="btn">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   );
 }
 
