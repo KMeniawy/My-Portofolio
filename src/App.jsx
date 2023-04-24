@@ -436,7 +436,15 @@ function App() {
         </div>
       </div>
       {/* contact me */}
-      <div className="h-[90vh] grid grid-cols-2 my-20">
+      <div className="h-[50vh] bg-[#0000A6] flex flex-col justify-center items-center gap-10 ">
+        <h3 className="text-5xl text-white">Hire me</h3>
+        <p className="text-white text-lg ">
+          Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+           Eos cumque dicta adipisci architecto culpa amet.
+        </p>
+        <button className="btn bg-white text-[#0000A6] hover:text-white mb-20">Contact Us</button>
+      </div>
+      <div className="h-[90vh] grid grid-cols-2 mb-20">
         <div className="">
           <img
             src="./src/assets/contact.jpg"
@@ -495,7 +503,7 @@ function App() {
               </div>
             </div>
             <div className="form-group">
-              <button type="submit" className="btn">
+              <button type="submit" className="btn btn-primary">
                 Send Message
               </button>
             </div>
