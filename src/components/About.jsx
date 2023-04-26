@@ -1,7 +1,19 @@
 import { aboutData } from "../data";
 
 const About = () => {
-  const {name,phoneNum,email,address,header,firstParagraph,secondParagraph} =  aboutData;
+  const {
+    name,
+    phoneNum,
+    email,
+    address,
+    header,
+    firstParagraph,
+    secondParagraph,
+    Facebook,
+    Twitter,
+    Github,
+    Linkedin,
+  } = aboutData;
   return (
     <div className=" h-[60vh]" data-aos="fade-up" data-aos-delay="300">
       <h1 className="text-center my-28 text-5xl mx-auto">About Me</h1>
@@ -14,7 +26,7 @@ const About = () => {
             </li>
             <li>
               <span className="font-bold mr-2">Phone: </span>
-              <span className="second-block">+20 127 312 1469</span>
+              <span className="second-block">{phoneNum}</span>
             </li>
             <li>
               <span className="font-bold mr-2">Email: </span>
@@ -29,32 +41,28 @@ const About = () => {
         <div className="col-span-4" data-aos="fade-left" data-aos-delay="600">
           {/* Right-side */}
           <h2 className="text-4xl mb-3">{header}</h2>
-          <p className="mb-10">
-            {firstParagraph}
-          </p>
-          <p>
-            {secondParagraph}
-          </p>
-          <ul className="fh5co-social-icons">
+          <p className="mb-10">{firstParagraph}</p>
+          <p>{secondParagraph}</p>
+          <ul className="flex mt-10 gap-3 justify-center">
             {/* TODO */}
             <li>
-              <a href="#">
-                <i className="icon-twitter2"></i>
+              <a href="https://www.facebook.com/Kimoooo3">
+                <Facebook/>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i className="icon-facebook3"></i>
+              <a href="https://github.com/KMeniawy">
+                <Github/>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i className="icon-linkedin2"></i>
+              <a href="https://www.linkedin.com/in/karim-el-meniawy-a3036a1ba/">
+                <Linkedin/>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i className="icon-dribbble2"></i>
+              <a href="https://dribbble.com/Kimzo99">
+                <Twitter/>
               </a>
             </li>
           </ul>

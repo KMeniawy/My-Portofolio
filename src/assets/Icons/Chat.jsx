@@ -3,7 +3,7 @@ import * as React from "react";
 function Chat(props) {
   return (
     <svg
-      fill="#0000a4"
+      fill="white"
       viewBox="0 0 16 16"
       height="4em"
       width="4em"

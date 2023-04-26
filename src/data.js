@@ -9,11 +9,20 @@ import HandBag from "./assets/Icons/HandBag";
 import Megaphone from "./assets/Icons/Megaphone";
 import Monitor from "./assets/Icons/Monitor";
 
+import Facebook from "./assets/Icons/Social/Facebook";
+import Github from "./assets/Icons/Social/Github";
+import Linkedin from "./assets/Icons/Social/Linkedin";
+import Twitter from "./assets/Icons/Social/Twitter"
+
 export const heroData = {
   name: `Karim ElMeniawy`,
   title: `UI/UX Designer & Frontend Developer`,
   hero: HeroImg,
   avatar: AvatarImg,
+  Facebook,
+  Twitter,
+  Github,
+  Linkedin
 };
 
 export const aboutData = {
@@ -32,6 +41,10 @@ export const aboutData = {
     Consonantia, there live the blind texts. Quos quia provident
     consequuntur culpa facere ratione maxime commodi voluptates id
     repellat velit eaque aspernatur expedita. Possimus itaque adipisci.`,
+    Facebook,
+    Twitter,
+    Github,
+    Linkedin
 };
 
 export const resumeData = {

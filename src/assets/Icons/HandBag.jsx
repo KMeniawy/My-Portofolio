@@ -4,7 +4,7 @@ function HandBag(props) {
   return (
     <svg
       viewBox="0 0 24 24"
-      fill="#0000a4"
+      fill="white"
       height="4.5em"
       width="4.5em"
       {...props}

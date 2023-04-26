@@ -4,7 +4,7 @@ function Analytics(props) {
   return (
     <svg
       fill="none"
-      stroke="#0000a4"
+      stroke="white"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
