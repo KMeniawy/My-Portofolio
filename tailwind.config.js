@@ -3,9 +3,6 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
-      backgroundImage: {
-        contact: "url(./src/assets/contact.jpg)"
-      },
       animatedSettings: {
         animatedSpeed: 1000,
         heartBeatSpeed: 500,

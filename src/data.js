@@ -1,6 +1,6 @@
-import HeroImg from "./assets/headerImg.jpg";
-import AvatarImg from "./assets/avatar.jpeg";
-import ContactImg from "./assets/contact.jpg";
+import HeroImg from "./assets/Images/headerImg.jpg";
+import AvatarImg from "./assets/Images/avatar.jpeg";
+import ContactImg from "./assets/Images/contact.jpg";
 
 export const heroData = {
   name: `Karim ElMeniawy`,
@@ -56,4 +56,10 @@ export const resumeData = {
   point6: [
     `Present`
   ]
+};
+
+export const contactData = {
+  paragraph:`Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+  reprehenderit. Eos cumque dicta adipisci architecto culpa amet.`,
+  sideImg:ContactImg
 };

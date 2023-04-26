@@ -5,7 +5,7 @@ import { heroData } from "../data";
 const Header = () => {
   const {name,title,hero,avatar} =  heroData;
   return (
-    <div className="bg-cover h-[100vh] flex justify-center items-center flex-col " style={{ 
+    <div className="bg-cover h-[100vh] flex justify-center items-center flex-col " style={{
       backgroundImage: `url(${hero})`
     }}>
       <img
