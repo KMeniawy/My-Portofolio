@@ -1,14 +1,21 @@
 import { myServicesData } from "../data";
 
 const MyServices = () => {
-  const {  Analytics,
+  const {
+    webDesign,
+    branding,
+    analytics,
+    webDev,
+    WebMarketing,
+    support,
+    Analytics,
     Brush,
     Chat,
     HandBag,
     Monitor,
     Megaphone} = myServicesData;
   return (
-    <div className="h-[100vh] bg-[#0000A6] text-white pt-24" data-aos="fade-up" data-aos-delay="300">
+    <div className="h-[110vh] bg-[#0000A6] text-white pt-24" data-aos="fade-up" data-aos-delay="300">
       <div className="pb-16">
         <h1 className="text-center mb-28 text-5xl mx-auto" data-aos="fade" data-aos-delay="300">My Services</h1>
       </div>
@@ -19,9 +26,8 @@ const MyServices = () => {
               <Brush/>
             </div>
             <h3 className="font-bold">Web Design</h3>
-            <p>
-              Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
-              reprehenderit.
+            <p className=" mx-4">
+              {webDesign}
             </p>
           </div>
           <div className="w-[25%] mr-5"data-aos="fade" data-aos-delay="300">
@@ -29,9 +35,8 @@ const MyServices = () => {
               <HandBag/>
             </div>
             <h3 className="font-bold">Branding</h3>
-            <p>
-              Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
-              reprehenderit.
+            <p className=" mx-4">
+              {branding}
             </p>
           </div>
           <div className="w-[25%]" data-aos="fade-left" data-aos-delay="300">
@@ -39,9 +44,8 @@ const MyServices = () => {
               <Analytics/>
             </div>
             <h3 className="font-bold">Analytics</h3>
-            <p>
-              Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
-              reprehenderit.
+            <p className=" mx-4">
+              {analytics}
             </p>
           </div>
         </div>
@@ -53,9 +57,8 @@ const MyServices = () => {
             </div>
             <div className="">
               <h3 className="font-bold">Web Developent</h3>
-              <p>
-                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
-                reprehenderit.
+              <p className=" mx-4">
+                {webDev}
               </p>
             </div>
           </div>
@@ -66,9 +69,8 @@ const MyServices = () => {
             </div>
             <div className="">
               <h3 className="font-bold">Web Marketing</h3>
-              <p>
-                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
-                reprehenderit.
+              <p className=" mx-4">
+                {WebMarketing}
               </p>
             </div>
           </div>
@@ -78,9 +80,8 @@ const MyServices = () => {
             </div>
             <div className="">
               <h3 className="font-bold">Support</h3>
-              <p>
-                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
-                reprehenderit.
+              <p className=" mx-4">
+                {support}
               </p>
             </div>
           </div>

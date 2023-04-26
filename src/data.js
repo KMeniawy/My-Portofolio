@@ -35,16 +35,8 @@ export const aboutData = {
   email: `karim.elmeniawy.99@gmail.com`,
   address: `Port Said, Egypt`,
   header: `Hello There!`,
-  firstParagraph: `There live the blind texts far from the countries Vokalia and
-    Consonantia, there live the blind texts. Separated they live in
-    bookmarksgrove there live the blind texts far from the countries.`,
-  secondParagraph: `Far far away, behind the word mountains, Quos quia provident
-    consequuntur culpa facere ratione maxime commodi voluptates id
-    repellat velit eaque aspernatur expedita. Possimus itaque adipisci
-    there live the blind texts from the countries Vokalia and
-    Consonantia, there live the blind texts. Quos quia provident
-    consequuntur culpa facere ratione maxime commodi voluptates id
-    repellat velit eaque aspernatur expedita. Possimus itaque adipisci.`,
+  firstParagraph: `As a junior frontend developer from Port Said, Egypt, I am excited to bring my passion for web development and my cultural background to the world of technology.`,
+  secondParagraph: `With experience in HTML, CSS, JavaScript, and React, I am committed to creating engaging and responsive interfaces that meet business objectives. Having grown up in a multicultural environment, I am fluent in both English and Arabic, and possess strong communication and collaboration skills. As a dedicated and detail-oriented individual, I am eager to learn from experienced developers and contribute to a team-driven environment. I am proud to represent the rich and diverse talent pool of Egypt's tech industry and am committed to continuously improving my skills and knowledge.`,
     Facebook,
     Twitter,
     Github,
@@ -83,6 +75,12 @@ export const resumeData = {
 };
 
 export const myServicesData = {
+  webDesign:`This involves creating the visual layout and user interface of a website. It includes selecting a color scheme, typography, images, and other visual elements that create a cohesive and appealing design.`,
+  branding:`This involves creating a brand identity for a website or business. It includes designing a logo, selecting a color scheme, creating a brand voice and messaging, and developing a brand strategy.`,
+  analytics:`This involves tracking and analyzing website data to gain insights into user behavior, website performance, and overall business goals. It includes setting up tools like Google Analytics to track website traffic and user engagement.`,
+  webDev:`This involves building and maintaining the actual website. It includes writing code in languages like HTML, CSS, and JavaScript, and using frameworks like React to create interactive web applications.`,
+  WebMarketing: `This involves promoting a website or business through various online marketing channels. It includes strategies like search engine optimization (SEO), social media marketing, email marketing, and content marketing.`,
+  support:`This involves providing technical support for a website or web application. It includes troubleshooting issues, maintaining the website, and providing assistance to users who encounter problems.`,
   Analytics,
   Brush,
   Chat,
