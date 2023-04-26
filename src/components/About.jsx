@@ -1,15 +1,16 @@
+import { aboutData } from "../data";
+
 const About = () => {
+  const {name,phoneNum,email,address,header,firstParagraph,secondParagraph} =  aboutData;
   return (
-    <div className=" h-[60vh]">
-      {/* TODO Animation */}
+    <div className=" h-[60vh]" data-aos="fade-up" data-aos-delay="300">
       <h1 className="text-center my-28 text-5xl mx-auto">About Me</h1>
       <div className="grid grid-flow-row-dense grid-cols-6 mx-48">
         <div className="col-span-2">
-          {/* left-side */}
-          <ul className="text-lg">
+          <ul className="text-lg" data-aos="fade-right" data-aos-delay="600">
             <li>
               <span className="font-bold mr-2">Full Name: </span>
-              <span className="second-block">Karim ElMeniawy</span>
+              <span className="second-block">{name}</span>
             </li>
             <li>
               <span className="font-bold mr-2">Phone: </span>
@@ -17,30 +18,22 @@ const About = () => {
             </li>
             <li>
               <span className="font-bold mr-2">Email: </span>
-              <span className="second-block">karim.elmeniawy.99@gmail.com</span>
+              <span className="second-block">{email}</span>
             </li>
             <li>
               <span className="font-bold mr-2">Address: </span>
-              <span className="second-block">Port Said, Egypt</span>
+              <span className="second-block">{address}</span>
             </li>
           </ul>
         </div>
-        <div className="col-span-4">
+        <div className="col-span-4" data-aos="fade-left" data-aos-delay="600">
           {/* Right-side */}
-          <h2 className="text-4xl mb-3">Hello There!</h2>
+          <h2 className="text-4xl mb-3">{header}</h2>
           <p className="mb-10">
-            There live the blind texts far from the countries Vokalia and
-            Consonantia, there live the blind texts. Separated they live in
-            bookmarksgrove there live the blind texts far from the countries.
+            {firstParagraph}
           </p>
           <p>
-            Far far away, behind the word mountains, Quos quia provident
-            consequuntur culpa facere ratione maxime commodi voluptates id
-            repellat velit eaque aspernatur expedita. Possimus itaque adipisci
-            there live the blind texts from the countries Vokalia and
-            Consonantia, there live the blind texts. Quos quia provident
-            consequuntur culpa facere ratione maxime commodi voluptates id
-            repellat velit eaque aspernatur expedita. Possimus itaque adipisci.
+            {secondParagraph}
           </p>
           <ul className="fh5co-social-icons">
             {/* TODO */}
