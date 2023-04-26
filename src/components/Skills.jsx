@@ -13,6 +13,7 @@ const Skills = () => {
               "--size": "10rem",
               "--thickness": "0.5rem",
             }}
+            data-aos="fade" data-aos-delay="300"
           >
             <h3 className="font-bold text-black">MongoDB</h3>
           </div>
@@ -25,6 +26,7 @@ const Skills = () => {
               "--size": "10rem",
               "--thickness": "0.5rem",
             }}
+            data-aos="fade" data-aos-delay="300"
           >
             <h3 className="font-bold text-black">Express</h3>
           </div>
@@ -37,6 +39,7 @@ const Skills = () => {
               "--size": "10rem",
               "--thickness": "0.5rem",
             }}
+            data-aos="fade" data-aos-delay="300"
           >
             <h3 className="font-bold text-black">React</h3>
           </div>
@@ -49,6 +52,7 @@ const Skills = () => {
               "--size": "10rem",
               "--thickness": "0.5rem",
             }}
+            data-aos="fade" data-aos-delay="300"
           >
             <h3 className="font-bold text-black">NodeJS</h3>
           </div>
@@ -63,6 +67,7 @@ const Skills = () => {
               "--size": "10rem",
               "--thickness": "0.5rem",
             }}
+            data-aos="fade" data-aos-delay="300"
           >
             <h3 className="font-bold text-black">Adobe Photoshop</h3>
           </div>
@@ -75,6 +80,7 @@ const Skills = () => {
               "--size": "10rem",
               "--thickness": "0.5rem",
             }}
+            data-aos="fade" data-aos-delay="300"
           >
             <h3 className="font-bold text-black">Adobe Illustrator</h3>
           </div>
@@ -87,6 +93,7 @@ const Skills = () => {
               "--size": "10rem",
               "--thickness": "0.5rem",
             }}
+            data-aos="fade" data-aos-delay="300"
           >
             <h3 className="font-bold text-black">Adobe XD</h3>
           </div>
@@ -99,6 +106,7 @@ const Skills = () => {
               "--size": "10rem",
               "--thickness": "0.5rem",
             }}
+            data-aos="fade" data-aos-delay="300"
           >
             <h3 className="font-bold text-black">Figma</h3>
           </div>
@@ -112,6 +120,7 @@ const Skills = () => {
             className="progress progress-success w-[30vw]"
             value="90"
             max="100"
+            data-aos="zoom-in-right" data-aos-delay="300"
           ></progress>
         </div>
         <div className="ml-24">
@@ -121,6 +130,7 @@ const Skills = () => {
             className="progress progress-accent w-[30vw]"
             value="70"
             max="100"
+            data-aos="zoom-in-right" data-aos-delay="300"
           ></progress>
         </div>
       </div>
@@ -131,6 +141,7 @@ const Skills = () => {
             className="progress progress-warning w-[30vw]"
             value="80"
             max="100"
+            data-aos="zoom-in-right" data-aos-delay="300"
           ></progress>
         </div>
         <div className="ml-24">
@@ -139,6 +150,7 @@ const Skills = () => {
             className="progress progress-error w-[30vw]"
             value="65"
             max="100"
+            data-aos="zoom-in-right" data-aos-delay="300"
           ></progress>
         </div>
       </div>
@@ -149,6 +161,7 @@ const Skills = () => {
             className="progress progress-info w-[30vw]"
             value="75"
             max="100"
+            data-aos="zoom-in-right" data-aos-delay="300"
           ></progress>
         </div>
         <div className="ml-24">
@@ -157,6 +170,7 @@ const Skills = () => {
             className="progress progress-primary w-[30vw]"
             value="80"
             max="100"
+            data-aos="zoom-in-right" data-aos-delay="300"
           ></progress>
         </div>
       </div>
