@@ -4,7 +4,6 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        header: "url(./src/assets/headerImg.jpg)",
         contact: "url(./src/assets/contact.jpg)"
       },
       animatedSettings: {

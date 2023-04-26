@@ -6,24 +6,23 @@ import Header from "./components/Header";
 import MyServices from "./components/MyServices";
 import Resume from "./components/Resume";
 import Skills from "./components/Skills";
+import 'animate.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
-
+  Aos.init({
+    duration:1800,
+    offset:0,
+  });
   return (
     <div className="bg-white text-gray-800">
-      {/* header */}
       <Header/>
-      {/* about */}
       <About/>
-      {/* resume */}
       <Resume/>
-      {/* my services */}
       <MyServices/>
-      {/* skills */}
       <Skills/>
-      {/* contact me */}
       <Contact/>
-      {/* footer */}
       <Footer/>
     </div>
   );
