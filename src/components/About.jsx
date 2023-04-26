@@ -51,8 +51,8 @@ const About = () => {
               </a>
             </li>
             <li>
-              <a href="https://github.com/KMeniawy">
-                <Github/>
+              <a href="https://twitter.com/Karim_Elmeniawy">
+                <Twitter/>
               </a>
             </li>
             <li>
@@ -61,8 +61,8 @@ const About = () => {
               </a>
             </li>
             <li>
-              <a href="https://dribbble.com/Kimzo99">
-                <Twitter/>
+              <a href="https://github.com/KMeniawy">
+                <Github/>
               </a>
             </li>
           </ul>

@@ -11,7 +11,7 @@ const Resume = () => {
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       />
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-white">
         <div className="min-h-screen flex justify-center">
           <div className="w-2/3 mx-auto">
             <div className="flex flex-row w-full" >
@@ -31,7 +31,7 @@ const Resume = () => {
               <div className="w-1/5  flex justify-center">
                 <div className="relative flex h-full w-1 bg-[#0000a6c5] items-center justify-center">
                   <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin ">
-                    <div data-aos="fade" data-aos-delay="300">{point1[1]}</div>
+                    <div data-aos="fade" data-aos-delay="300" className="font-bold">{point1[1]}</div>
                   </div>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Resume = () => {
               <div className="w-1/5  flex justify-center">
                 <div className="relative flex h-full w-1 bg-[#0000a6c5] items-center justify-center">
                   <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin">
-                    <div data-aos="fade" data-aos-delay="300">{point2[1]}</div>
+                    <div data-aos="fade" data-aos-delay="300" className="font-bold">{point2[1]}</div>
                   </div>
                 </div>
               </div>
@@ -73,7 +73,7 @@ const Resume = () => {
               <div className="w-1/5  flex justify-center">
                 <div className="relative flex h-full w-1 bg-[#0000a6c5] items-center justify-center">
                   <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin">
-                    <div data-aos="fade" data-aos-delay="300">{point3[1]}</div>
+                    <div data-aos="fade" data-aos-delay="300" className="font-bold">{point3[1]}</div>
                   </div>
                 </div>
               </div>
@@ -84,7 +84,7 @@ const Resume = () => {
               <div className="w-1/5  flex justify-center">
                 <div className="relative flex h-full w-1 bg-[#0000a6c5] items-center justify-center">
                   <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin">
-                    <div data-aos="fade" data-aos-delay="300">{point4[1]}</div>
+                    <div data-aos="fade" data-aos-delay="300" className="font-bold">{point4[1]}</div>
                   </div>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const Resume = () => {
               <div className="w-1/5  flex justify-center">
                 <div className="relative flex h-full w-1 bg-[#0000a6c5] items-center justify-center">
                   <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin">
-                    <div data-aos="fade" data-aos-delay="300">{point5[1]}</div>
+                    <div data-aos="fade" data-aos-delay="300" className="font-bold">{point5[1]}</div>
                   </div>
                 </div>
               </div>
@@ -133,7 +133,7 @@ const Resume = () => {
               <div className="w-1/5  flex justify-center">
                 <div className="relative flex h-full w-1  justify-center">
                   <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin" >
-                    <div data-aos="fade" data-aos-delay="300">{point6[0]}</div>
+                    <div data-aos="fade" data-aos-delay="300" className="font-bold">{point6[0]}</div>
                   </div>
                 </div>
               </div>

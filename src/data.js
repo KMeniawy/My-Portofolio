@@ -13,16 +13,20 @@ import Facebook from "./assets/Icons/Social/Facebook";
 import Github from "./assets/Icons/Social/Github";
 import Linkedin from "./assets/Icons/Social/Linkedin";
 import Twitter from "./assets/Icons/Social/Twitter"
+import FacebookDark from "./assets/Icons/Social/FacebookDark";
+import GithubDark from "./assets/Icons/Social/GithubDark";
+import LinkedinDark from "./assets/Icons/Social/LinkedinDark";
+import TwitterDark from "./assets/Icons/Social/TwitterDark";
 
 export const heroData = {
   name: `Karim ElMeniawy`,
   title: `UI/UX Designer & Frontend Developer`,
   hero: HeroImg,
   avatar: AvatarImg,
-  Facebook,
-  Twitter,
-  Github,
-  Linkedin
+  FacebookDark,
+  TwitterDark,
+  GithubDark,
+  LinkedinDark
 };
 
 export const aboutData = {
