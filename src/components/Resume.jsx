@@ -1,80 +1,146 @@
+import { resumeData } from "../data";
+
 const Resume = () => {
+  const { point1, point2, point3, point4, point5, point6 } = resumeData;
   return (
-    <div className="h-[100vh] mb-36">
-      {/* TODO  animation */}
+    <div className="h-[120vh] mb-36">
+
       <h1 className="text-center my-28 text-5xl mx-auto">My Resume</h1>
-      <div className="grid grid-flow-row-dense grid-cols-3 ml-40">
-        <ol className="relative border-l border-gray-200 dark:border-gray-700 flex flex-col justify-center w-[150%] mx-auto">
-          <li className="mb-16 ml-8 ">
-            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
-            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 ">
-              Faculty of Science
-            </h3>
-            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              2018
-            </time>
-            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-              Mathematics Department, Computer Science & Information Technology
-              track.
-            </p>
-          </li>
-          <li className="mb-16 ml-8">
-            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
-            <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
-              Major Science Team
-            </h3>
-            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              2019
-            </time>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Design Committee Member at MST.
-            </p>
-          </li>
-          <li className="mb-16 ml-8">
-            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
-            <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
-              Google Developer Student Club PSU
-            </h3>
-            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              2020
-            </time>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Design Committee Member at GDSC.
-            </p>
-          </li>
-          <li className="mb-16 ml-8">
-            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
-            <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
-              Graduation Project
-            </h3>
-            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              2021
-            </time>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Web application that was focused on helping clients to understand
-              lab tests more and to save it for them in their medical record,
-              and some common Q&A.
-            </p>
-          </li>
-          <li className="ml-8 mb-5">
-            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
-            <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
-              Information Technology Institute
-            </h3>
-            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              2022
-            </time>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Web & User Interface Development.
-            </p>
-          </li>
-          <li className="ml-8 mt-20">
-            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 -bottom-5 ring-8 ring-white dark:ring-gray-900 dark:bg-[#fff] hover:bg-[#0000A6] transition-colors"></span>
-            <h3 className="mb-1 text-lg font-semibold text-gray-900 absolute -bottom-8">
-              Present
-            </h3>
-          </li>
-        </ol>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous"
+      />
+      <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen flex justify-center">
+          <div class="w-2/3 mx-auto">
+            <div class="flex flex-row w-full">
+              <div class="w-2/5 px-2 py-5">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <div class="text-gray-600 mb-2 flex justify-between">
+                    <div class="font-bold">{point1[0]}</div>
+                    <div class="flex flex-row">
+
+                    </div>
+                  </div>
+                  <div class="text-gray-600">
+                    {point1[2]}
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-[#0000a6c5] items-center justify-center">
+                  <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin">
+                    <div>{point1[1]}</div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-2/5 px-2 py-5 "></div>
+            </div>
+            <div class="flex flex-row w-full">
+              <div class="w-2/5 px-2 py-5"></div>
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-[#0000a6c5] items-center justify-center">
+                  <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin">
+                    {point2[1]}
+                  </div>
+                </div>
+              </div>
+              <div class="w-2/5 px-2 py-10 ">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <div class="text-gray-600 mb-2 flex justify-between">
+                    <div class="font-bold">{point2[0]}</div>
+                  </div>
+                  <div class="text-gray-600">
+                    {point2[2]}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row w-full">
+              <div class="w-2/5 px-2 py-10">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <div class="text-gray-600 mb-2 flex justify-between">
+                    <div class="font-bold">{point3[0]}</div>
+                    <div class="flex flex-row">
+                    </div>
+                  </div>
+                  <div class="text-gray-600">
+                    {point3[2]}
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-[#0000a6c5] items-center justify-center">
+                  <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin">
+                    {point3[1]}
+                  </div>
+                </div>
+              </div>
+              <div class="w-2/5 px-2 py-10 "></div>
+            </div>
+            <div class="flex flex-row w-full">
+              <div class="w-2/5 px-2 py-5"></div>
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-[#0000a6c5] items-center justify-center">
+                  <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin">
+                    {point4[1]}
+                  </div>
+                </div>
+              </div>
+              <div class="w-2/5 px-2 py-10 ">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <div class="text-gray-600 mb-2 flex justify-between">
+                    <div class="font-bold">{point4[0]}</div>
+                  </div>
+                  <div class="text-gray-600">
+                    {point4[2]}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row w-full">
+              <div class="w-2/5 px-2 py-20">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <div class="text-gray-600 mb-2 flex justify-between">
+                    <div class="font-bold">{point5[0]}</div>
+                    <div class="flex flex-row">
+                    </div>
+                  </div>
+                  <div class="text-gray-600">
+                    {point5[2]}
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-[#0000a6c5] items-center justify-center">
+                  <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin">
+                    {point5[1]}
+                  </div>
+                </div>
+              </div>
+              <div class="w-2/5 px-2 py-10 "></div>
+            </div>
+            <div class="flex flex-row w-full">
+              <div class="w-2/5 px-2 py-10">
+                <div class="flex flex-col w-full px-4 py-5">
+                  <div class="text-gray-600 mb-2 flex justify-between">
+                    <div class="flex flex-row">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1  justify-center">
+                  <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-[#0000a6c5] leading-none text-center z-10 bg-white font-thin">
+                    {point6[0]}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
