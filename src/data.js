@@ -2,6 +2,13 @@ import HeroImg from "./assets/Images/headerImg.jpg";
 import AvatarImg from "./assets/Images/avatar.jpeg";
 import ContactImg from "./assets/Images/contact.jpg";
 
+import Analytics from "./assets/Icons/Analytics";
+import Brush from "./assets/Icons/Brush";
+import Chat from "./assets/Icons/Chat";
+import HandBag from "./assets/Icons/HandBag";
+import Megaphone from "./assets/Icons/Megaphone";
+import Monitor from "./assets/Icons/Monitor";
+
 export const heroData = {
   name: `Karim ElMeniawy`,
   title: `UI/UX Designer & Frontend Developer`,
@@ -56,6 +63,15 @@ export const resumeData = {
   point6: [
     `Present`
   ]
+};
+
+export const myServicesData = {
+  Analytics,
+  Brush,
+  Chat,
+  HandBag,
+  Monitor,
+  Megaphone
 };
 
 export const contactData = {
