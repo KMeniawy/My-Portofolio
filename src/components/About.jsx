@@ -15,7 +15,7 @@ const About = () => {
     Linkedin,
   } = aboutData;
   return (
-    <div className=" h-[60vh]" data-aos="fade-up" data-aos-delay="300">
+    <div className=" 2xl:h-[60vh] xl:h-[70vh]" data-aos="fade-up" data-aos-delay="300">
       <h1 className="text-center my-28 text-5xl mx-auto">About Me</h1>
       <div className="grid grid-flow-row-dense grid-cols-6 mx-48">
         <div className="col-span-2">

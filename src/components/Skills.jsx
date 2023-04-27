@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div className="h-[100vh] mb-10" data-aos="fade-up" data-aos-delay="300">
+    <div className="2xl:h-[100vh] xl:h-[120] 2xl:mb-10 xl:mb-20" data-aos="fade-up" data-aos-delay="300">
       <div className="pt-5 pb-2">
         <h1 className="text-center my-20 text-5xl mx-auto">Skills</h1>
       </div>

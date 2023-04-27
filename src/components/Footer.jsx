@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <p>
+            <p className="2xl:mx-0  xl:mx-10">
               &copy; 2023 ITI intake 43 Web & UI Development. All Rights
               Reserved. <br />
               Designed by Karim Elmeniawy <br /> Demo Images:{" "}

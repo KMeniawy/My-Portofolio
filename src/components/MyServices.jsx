@@ -15,7 +15,7 @@ const MyServices = () => {
     Monitor,
     Megaphone} = myServicesData;
   return (
-    <div className="h-[110vh] bg-gradient-to-tr from-[#010010] to-[#010185] text-white pt-24" data-aos="fade-up" data-aos-delay="300">
+    <div className="2xl:h-[110vh] xl:h-[130vh] bg-gradient-to-tr from-[#010010] to-[#010185] text-white 2xl:pt-24 xl:pt-20" data-aos="fade-up" data-aos-delay="300">
       <div className="pb-16">
         <h1 className="text-center mb-28 text-5xl mx-auto" data-aos="fade" data-aos-delay="300">My Services</h1>
       </div>
