@@ -3,7 +3,7 @@ const Contact = () => {
   const {sideImg,paragraph} = contactData;
   return (
     <>
-      <div className="h-[50vh] bg-[#0000A6] flex flex-col justify-center items-center gap-10 ">
+      <div className="h-[50vh] bg-gradient-to-b from-[#010010] to-[#010185] flex flex-col justify-center items-center gap-10 ">
         <h3 className="text-5xl text-white" data-aos="fade-up" data-aos-delay="300">Hire me</h3>
         <p className="text-white text-lg " data-aos="fade-up" data-aos-delay="300">
           {paragraph}
