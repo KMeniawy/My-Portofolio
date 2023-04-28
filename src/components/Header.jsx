@@ -7,7 +7,7 @@ const Header = () => {
     heroData;
   return (
     <div
-      className="bg-cover xl:h-[100vh] flex justify-center items-center flex-col "
+      className="bg-cover lg:h-[100vh] lg:w-[101vw] flex justify-center items-center flex-col "
       style={{
         backgroundImage: `url(${hero})`,
       }}
@@ -30,22 +30,22 @@ const Header = () => {
       </p>
       <ul className="flex mt-10 gap-3 justify-center"  data-aos="fade-up" data-aos-delay="100">
         <li>
-          <a href="https://www.facebook.com/Kimoooo3" className="active:border-none">
+          <a target="_blank" href="https://www.facebook.com/Kimoooo3" className="active:border-none">
             <FacebookDark/>
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/Karim_Elmeniawy">
+          <a target="_blank" href="https://twitter.com/Karim_Elmeniawy">
             <TwitterDark/>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/karim-el-meniawy-a3036a1ba/">
+          <a target="_blank" href="https://www.linkedin.com/in/karim-el-meniawy-a3036a1ba/">
             <LinkedinDark/>
           </a>
         </li>
         <li>
-          <a href="https://github.com/KMeniawy">
+          <a target="_blank" href="https://github.com/KMeniawy">
             <GithubDark/>
           </a>
         </li>

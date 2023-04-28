@@ -7,7 +7,7 @@ const Skills = () => {
       <div className="flex flex-row justify-center mb-20 mx-10 text-center">
         <div className="w-[20%]">
           <div
-            className="radial-progress text-[#439934]"
+            className="radial-progress text-[#439934] "
             style={{
               "--value": 60,
               "--size": "10rem",
