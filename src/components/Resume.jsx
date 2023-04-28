@@ -3,7 +3,7 @@ import { resumeData } from "../data";
 const Resume = () => {
   const { point1, point2, point3, point4, point5, point6 } = resumeData;
   return (
-    <div className="2xl:h-[140vh] lg:h-[130] mb-32" data-aos="fade-up" data-aos-delay="300">
+    <div className="2xl:h-[140vh] md:h-[130] mb-32" data-aos="fade-up" data-aos-delay="300">
 
       <h1 className="text-center my-28 text-5xl mx-auto">My Resume</h1>
       <link
