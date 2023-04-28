@@ -15,7 +15,7 @@ const About = () => {
     Linkedin,
   } = aboutData;
   return (
-    <div className=" 2xl:h-[60vh] lg:h-[75vh] md:h-[80vh]" data-aos="fade-up" data-aos-delay="300">
+    <div className=" 2xl:h-[60vh] lg:h-[75vh] md:h-[90vh]" data-aos="fade-up" data-aos-delay="300">
       <h1 className="text-center xl:my-28 lg:my-20 md:my-16 text-5xl mx-auto">About Me</h1>
       <div className="xl:grid xl:grid-flow-row-dense xl:grid-cols-6 mx-48 lg:gap-5 md:flex md:flex-col md:gap-8">
         <div className="col-span-2">

@@ -1,11 +1,11 @@
 const Skills = () => {
   return (
-    <div className="2xl:h-[110vh] xl:h-[120] 2xl:mb-10 xl:mb-20" data-aos="fade-up" data-aos-delay="300">
+    <div className="2xl:h-[110vh] xl:h-[120] 2xl:mb-10 xl:mb-20 md:h-[120vh]" data-aos="fade-up" data-aos-delay="300">
       <div className="pt-5 pb-2">
         <h1 className="text-center my-20 text-5xl mx-auto">Skills</h1>
       </div>
-      <div className="flex flex-row justify-center mb-20 mx-10 text-center">
-        <div className="w-[20%]">
+      <div className="flex lg:flex-row justify-center mb-20 lg:mx-10 text-center md:justify-evenly">
+        <div className="lg:w-[20%]">
           <div
             className="radial-progress text-[#439934] "
             style={{
@@ -18,7 +18,7 @@ const Skills = () => {
             <h3 className="font-bold text-black">MongoDB</h3>
           </div>
         </div>
-        <div className="w-[20%]">
+        <div className="lg:w-[20%]">
           <div
             className="radial-progress text-[#1e2126]"
             style={{
@@ -31,7 +31,7 @@ const Skills = () => {
             <h3 className="font-bold text-black">Express</h3>
           </div>
         </div>
-        <div className="w-[20%]">
+        <div className="lg:w-[20%]">
           <div
             className="radial-progress text-[#81c0d1]"
             style={{
@@ -44,7 +44,7 @@ const Skills = () => {
             <h3 className="font-bold text-black">React</h3>
           </div>
         </div>
-        <div className="w-[20%]">
+        <div className="lg:w-[20%]">
           <div
             className="radial-progress text-[#75B527]"
             style={{
@@ -58,8 +58,8 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-center mb-20 mx-10 text-center">
-        <div className="w-[20%]">
+      <div className="flex lg:flex-row justify-center mb-20 lg:mx-10 text-center md:justify-evenly">
+        <div className="lg:w-[20%]">
           <div
             className="radial-progress text-[#80B5E2]"
             style={{
@@ -72,7 +72,7 @@ const Skills = () => {
             <h3 className="font-bold text-black">Adobe Photoshop</h3>
           </div>
         </div>
-        <div className="w-[20%]">
+        <div className="lg:w-[20%]">
           <div
             className="radial-progress text-[#fa8e2a]"
             style={{
@@ -85,7 +85,7 @@ const Skills = () => {
             <h3 className="font-bold text-black">Adobe Illustrator</h3>
           </div>
         </div>
-        <div className="w-[20%]">
+        <div className="lg:w-[20%]">
           <div
             className="radial-progress text-[#bb4b9b]"
             style={{
@@ -98,7 +98,7 @@ const Skills = () => {
             <h3 className="font-bold text-black">Adobe XD</h3>
           </div>
         </div>
-        <div className="w-[20%]">
+        <div className="lg:w-[20%]">
           <div
             className="radial-progress text-[#0ACF83]"
             style={{

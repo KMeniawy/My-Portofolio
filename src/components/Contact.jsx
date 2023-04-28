@@ -3,16 +3,16 @@ const Contact = () => {
   const {sideImg,paragraph} = contactData;
   return (
     <>
-      <div className="2xl:h-[50vh] lg:h-[55vh] bg-gradient-to-b from-[#010010] to-[#010185] flex flex-col justify-center items-center gap-10 ">
+      <div className="2xl:h-[50vh] md:h-[55vh] bg-gradient-to-b from-[#010010] to-[#010185] flex flex-col justify-center items-center gap-10 ">
         <h3 className="text-5xl text-white" data-aos="fade-up" data-aos-delay="300">Hire me</h3>
-        <p className="text-white text-lg " data-aos="fade-up" data-aos-delay="300">
+        <p className="text-white text-lg  md:text-center md:mx-10" data-aos="fade-up" data-aos-delay="300">
           {paragraph}
         </p>
         <button className="btn bg-white text-[#0000A6] hover:text-white mb-20 border-none" data-aos="fade" data-aos-delay="800">
           Contact Us
         </button>
       </div>
-      <div className=" grid grid-cols-2 2xl:h-[85vh] xl:h-[90vh] lg:h-[95vh]">
+      <div className=" grid grid-cols-2 2xl:h-[85vh] xl:h-[90vh] md:h-[95vh]">
         <div className="col-span-1  h-[100%] bg-cover bg-no-repeat" style={{backgroundImage:`url(${sideImg})`}} data-aos="fade" data-aos-delay="800"></div>
         <div data-aos="fade-right" data-aos-delay="300">
           <h2 className="pt-10 text-3xl pl-10 mb-10 ">Contact</h2>
