@@ -15,12 +15,12 @@ const MyServices = () => {
     Monitor,
     Megaphone} = myServicesData;
   return (
-    <div className="3xl:h-[80vh] 2xl:h-[120vh] xl:h-[135vh] lg:h-[166vh] md:h-[185vh] bg-gradient-to-tr from-[#010010] to-[#010185] text-white 2xl:pt-24 md:pt-20" data-aos="fade-up" data-aos-delay="300">
+    <div className="3xl:h-[80vh] 2xl:h-[120vh] xl:h-[135vh] lg:h-[166vh] md:h-[210vh] bg-gradient-to-tr from-[#010010] to-[#010185] text-white 2xl:pt-24 md:pt-16" data-aos="fade-up" data-aos-delay="300">
       <div className="pb-16">
-        <h1 className="text-center mb-28 text-5xl mx-auto" data-aos="fade" data-aos-delay="300">My Services</h1>
+        <h1 className="text-center lg:mb-28 md:mb-10 text-5xl mx-auto" data-aos="fade" data-aos-delay="300">My Services</h1>
       </div>
       <div className=" w-[100%]">
-        <div className="flex flex-row justify-center mb-32 mx-10 text-center lg:gap-10">
+        <div className="flex flex-row justify-center lg:mb-32 md:mb-10 mx-10 text-center lg:gap-10">
           <div className="w-[25%] mr-5" data-aos="fade-right" data-aos-delay="300">
             <div className="flex justify-center h-24 items-center rounded-full ">
               <Brush/>
