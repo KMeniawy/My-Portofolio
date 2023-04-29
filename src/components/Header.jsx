@@ -7,7 +7,7 @@ const Header = () => {
     heroData;
   return (
     <div
-      className="bg-cover xl:w-[100vw] lg:w-[101vw] md:h-[100vh] sm:h-[100vh] flex justify-center items-center flex-col "
+      className="bg-cover  md:h-[100vh] sm:h-[100vh] flex justify-center items-center flex-col "
       style={{
         backgroundImage: `url(${hero})`,
       }}
