@@ -12,7 +12,7 @@ const Contact = () => {
           Contact Us
         </button>
       </div>
-      <div className=" grid grid-cols-2 2xl:h-[85vh] xl:h-[90vh] md:h-[95vh]">
+      <div className=" grid grid-cols-2 2xl:h-[85vh] xl:h-[110vh] lg:h-[120vh] md:h-[95vh]">
         <div className="col-span-1  h-[100%] bg-cover bg-no-repeat" style={{backgroundImage:`url(${sideImg})`}} data-aos="fade" data-aos-delay="800"></div>
         <div data-aos="fade-right" data-aos-delay="300">
           <h2 className="pt-10 text-3xl pl-10 mb-10 ">Contact</h2>
@@ -59,8 +59,9 @@ const Contact = () => {
             <div className="row form-group">
               <div className="col-md-12">
                 <textarea
-                  className="textarea textarea-primary textarea-bordered textarea-lg"
+                  className="textarea textarea-primary textarea-bordered textarea-lg xl:w-full lg:w-[90%] md:w-[80%] max-w-lg"
                   placeholder="Subject Message"
+                  
                 ></textarea>
               </div>
             </div>
