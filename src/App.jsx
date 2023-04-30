@@ -18,12 +18,10 @@ function App() {
   return (
     <div className="bg-white text-gray-800">
       <Header/>
-      <div className="3xl:flex 3xl:flex-col 3xl:gap-40">
-        <About/>
-        <Resume/>
-        <MyServices/>
-        <Skills/>
-      </div>
+      <About/>
+      <Resume/>
+      <MyServices/>
+      <Skills/>
       <Contact/>
       <Footer/>
     </div>
