@@ -18,10 +18,12 @@ function App() {
   return (
     <div className="bg-white text-gray-800">
       <Header/>
+      <div className="flex gap-2 flex-col">
       <About/>
       <Resume/>
       <MyServices/>
       <Skills/>
+      </div>
       <Contact/>
       <Footer/>
     </div>
