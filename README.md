@@ -1,7 +1,7 @@
 
 # My portfolio
 
-My portfolio page showcases my work as a graphic designer. 
+The page showcases my work as a graphic designer. 
 With a clean and modern design, and a brief description that highlights my roles, with a focus on quality and creativity.
 
 
